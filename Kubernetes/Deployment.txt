@@ -55,7 +55,8 @@ kubectl rollout status deployment/nginx-deploy
 kubectl get deploy
 
 *******************************************************************
-# 5. Testing: Scale UP
+# 5. Testing: Scale Up --------- dont go upto 4 or replicas we have igb ram and cpu in t2.micro, to be helpful u can use t2.medium not that much 
+                                                                                      chargable
 
 kubectl scale deployment nginx-deploy --replicas=5
 kubectl get deploy
