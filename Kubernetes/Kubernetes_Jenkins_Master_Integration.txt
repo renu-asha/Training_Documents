@@ -465,7 +465,9 @@ usermod -aG docker devopsadmin
 
 #As a root user edit below file:
 
-$ visudo   ------------------ it opens a nano editor, ctrl+X to exit and click or enter Y to confirm
+$ visudo   ------------------ it opens a nano editor, ctrl+X to exit and click or enter Y to confirm ( Save the file: Press Ctrl + O (write out).
+Confirm the file name: It will prompt you for the file name. Press Enter to confirm.)
+Exit the editor: Press Ctrl + X to exit.
 
 #add the below mentioned line in the file and save it.
 
